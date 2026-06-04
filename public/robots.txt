@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /admin
+
+Sitemap: https://mucokiandco.pages.dev/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Crawl-delay: 1
