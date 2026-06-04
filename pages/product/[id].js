@@ -2,14 +2,14 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 
 const products = [
-  { id: 1, name: 'Diamond Pendant Necklace', price: 3250, weight: 5, category: 'Necklace', description: 'Exquisite 22K gold necklace adorned with brilliant diamonds' },
-  { id: 2, name: 'Ruby Engagement Ring', price: 3280, weight: 5, category: 'Ring', description: 'Stunning 22K gold ring featuring a premium ruby stone' },
-  { id: 3, name: 'Emerald Bracelet', price: 3290, weight: 5, category: 'Bracelet', description: 'Elegant 22K gold bracelet with luxurious emerald stones' },
-  { id: 4, name: 'Sapphire Earrings', price: 3400, weight: 5, category: 'Earrings', description: 'Radiant 22K gold earrings featuring deep blue sapphires' },
-  { id: 5, name: 'Pearl Choker Set', price: 3500, weight: 5, category: 'Choker Set', description: 'Luxurious 22K gold choker with authentic pearls' },
-  { id: 6, name: 'Golden Locket', price: 3600, weight: 5, category: 'Locket', description: 'Precious 22K gold locket perfect for keeping memories' },
-  { id: 7, name: 'Kundan Tiara', price: 3700, weight: 5, category: 'Tiara', description: 'Spectacular 22K gold tiara adorned with kundan stones' },
-  { id: 8, name: 'Antique Brooch', price: 3750, weight: 5, category: 'Brooch', description: 'Magnificent 22K gold brooch with antique finishing' }
+  { id: 1, name: 'Diamond Pendant Necklace', price: 3250, weight: 5, category: 'Necklace', description: 'Exquisite pure 22K gold necklace adorned with brilliant diamonds. Crafted from finest pure 22K gold only.' },
+  { id: 2, name: 'Ruby Engagement Ring', price: 3280, weight: 5, category: 'Ring', description: 'Stunning pure 22K gold ring featuring a premium ruby stone. 100% pure 22K gold construction.' },
+  { id: 3, name: 'Emerald Bracelet', price: 3290, weight: 5, category: 'Bracelet', description: 'Elegant pure 22K gold bracelet with luxurious emerald stones. Solid 22K gold throughout.' },
+  { id: 4, name: 'Sapphire Earrings', price: 3400, weight: 5, category: 'Earrings', description: 'Radiant pure 22K gold earrings featuring deep blue sapphires. Made from pure 22K gold only.' },
+  { id: 5, name: 'Pearl Choker Set', price: 3500, weight: 5, category: 'Choker Set', description: 'Luxurious pure 22K gold choker with authentic pearls. Crafted entirely in 22K pure gold.' },
+  { id: 6, name: 'Golden Locket', price: 3600, weight: 5, category: 'Locket', description: 'Precious pure 22K gold locket perfect for keeping memories. Solid 22K gold construction.' },
+  { id: 7, name: 'Kundan Tiara', price: 3700, weight: 5, category: 'Tiara', description: 'Spectacular pure 22K gold tiara adorned with kundan stones. Made from pure 22K gold only.' },
+  { id: 8, name: 'Antique Brooch', price: 3750, weight: 5, category: 'Brooch', description: 'Magnificent pure 22K gold brooch with antique finishing. Solid 22K gold throughout.' }
 ];
 
 export default function ProductDetail() {
@@ -43,16 +43,17 @@ export default function ProductDetail() {
           <div>
             <h1 className="text-5xl font-bold text-gold mb-4">{product.name}</h1>
             <p className="text-2xl text-gold mb-2">${product.price.toFixed(2)} USD</p>
-            <p className="text-gray-400 mb-6">Weight: {product.weight}g • 22K Gold</p>
+            <p className="text-gray-400 mb-6">Weight: {product.weight}g • PURE 22K GOLD</p>
             <p className="text-gray-300 mb-8 leading-relaxed">{product.description}</p>
 
             <div className="bg-black border border-gold p-6 mb-8">
-              <h3 className="text-gold text-xl font-bold mb-4">Product Details</h3>
+              <h3 className="text-gold text-xl font-bold mb-4">Product Specifications</h3>
               <ul className="text-gray-300 space-y-2">
-                <li>✓ 100% Certified 22K Gold</li>
-                <li>✓ Weight: {product.weight}g</li>
+                <li>✓ 100% PURE 22K GOLD - No alloys, no fillers</li>
+                <li>✓ Weight: {product.weight}g of solid 22K gold</li>
                 <li>✓ Category: {product.category}</li>
                 <li>✓ Premium Quality Craftsmanship</li>
+                <li>✓ Hallmarked & Certified</li>
                 <li>✓ Secure Packaging & Insurance</li>
                 <li>✓ Money Back Guarantee</li>
               </ul>
