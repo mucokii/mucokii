@@ -1,5 +1,4 @@
 # MUCOKIANDCO - Luxury 22K Gold Jewellery
-google-site-verification: google4d6c2962e69fa488.html
 ## Premium Collection - 8 Exclusive Products
 
 **Product Prices (USD):**
