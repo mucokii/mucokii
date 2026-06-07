@@ -3,14 +3,15 @@ google-site-verification: google4d6c2962e69fa488.html
 ## Premium Collection - 8 Exclusive Products
 
 **Product Prices (USD):**
-1. Diamond Pendant Necklace - $3,250 (5g Pure 22K Gold)
-2. Ruby Engagement Ring - $3,280 (5g Pure 22K Gold)
-3. Emerald Bracelet - $3,290 (5g Pure 22K Gold)
-4. Sapphire Earrings - $3,400 (5g Pure 22K Gold)
-5. Pearl Choker Set - $3,500 (5g Pure 22K Gold)
-6. Golden Locket - $3,600 (5g Pure 22K Gold)
-7. Kundan Tiara - $3,700 (5g Pure 22K Gold)
-8. Antique Brooch - $3,750 (5g Pure 22K Gold)
+  { name: "Diamond Pendant Necklace", price: "$3,250", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780834872/1000011762_hylaws.jpg" },
+  { name: "Ruby Engagement Ring", price: "$3,290", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780846361/IMG-20260607-WA0129_dvoxg5.jpg" },
+  { name: "Emerald Bracelet", price: "$3,380", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780847344/IMG-20260607-WA0126_qmo7vv.jpg" },
+  { name: "Sapphire Earrings", price: "$3,450", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780848298/IMG-20260607-WA0113_nhf3da.jpg" },
+  { name: "Pearl Choker Set", price: "$3,550", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780848623/IMG-20260607-WA0096_jb2ne9.jpg" },
+  { name: "Golden Locket", price: "$3,680", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780849534/IMG-20260607-WA0146_pkiu4d.jpg" },
+  { name: "Kundan Tiara", price: "$3,730", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780851254/IMG-20260607-WA0143_knxnfx.jpg" },
+  { name: "Antique Brooch", price: "$3,780", image: "https://res.cloudinary.com/dkexwxnjc/image/upload/v1780854068/IMG-20260607-WA0149_cdbmr9.jpg" }
+];
 
 ## Features
 
